@@ -33,6 +33,10 @@ p, span, a {
  flex-direction: column;
 }
 
+.images {
+ display: flex;
+}
+
 .images img {
  height: 50rem;
 }
@@ -98,4 +102,48 @@ p, span, a {
 .download-app {
  color: #000;
  margin-bottom: 2rem;
+}
+
+@media (max-width: 650px) {
+    * {
+        margin-top: 1em;
+    }
+
+    body {
+        background-color: #ffffff;
+    }
+
+    main {
+        width: 90%;
+        margin: auto;
+    }
+
+    .images {
+        display: none;
+    }
+
+    .continue {
+        width: 100%;
+    }
+    
+    .box {
+        border: 1px solid transparent;
+    }
+
+    .app {
+        background-color: #fff;
+    }
+
+    
+    .or {
+        display: block;
+        margin-left: 50% !important;
+        color: #a0a0a0;
+    }
+    .align {
+        margin-left: 20%;
+    }
+    .app img {
+        margin-left: -0.1rem;
+    }
 }
