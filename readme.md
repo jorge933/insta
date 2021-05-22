@@ -1,3 +1,3 @@
-#instagram in HTML, CSS
+Instagram in HTML, CSS
 
-![](https://github.com/jorge933/insta/tree/master/img/final.png)
+![](https://github.com/jorge933/insta/blob/master/img/final.png)
