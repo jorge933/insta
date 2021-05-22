@@ -104,6 +104,10 @@ p, span, a {
  margin-bottom: 2rem;
 }
 
+.or {
+ color: #a0a0a0;
+}
+
 @media (max-width: 650px) {
     * {
         margin-top: 1em;
